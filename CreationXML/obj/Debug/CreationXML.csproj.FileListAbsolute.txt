@@ -1,0 +1,26 @@
+d:\utilisateur\documents\visual studio 2013\Projects\CreationXML\CreationXML\bin\Debug\CreationXML.exe.config
+d:\utilisateur\documents\visual studio 2013\Projects\CreationXML\CreationXML\bin\Debug\CreationXML.exe
+d:\utilisateur\documents\visual studio 2013\Projects\CreationXML\CreationXML\bin\Debug\CreationXML.pdb
+d:\utilisateur\documents\visual studio 2013\Projects\CreationXML\CreationXML\obj\Debug\CreationXML.csprojResolveAssemblyReference.cache
+d:\utilisateur\documents\visual studio 2013\Projects\CreationXML\CreationXML\obj\Debug\CreationXML.Form1.resources
+d:\utilisateur\documents\visual studio 2013\Projects\CreationXML\CreationXML\obj\Debug\CreationXML.Properties.Resources.resources
+d:\utilisateur\documents\visual studio 2013\Projects\CreationXML\CreationXML\obj\Debug\CreationXML.csproj.GenerateResource.Cache
+d:\utilisateur\documents\visual studio 2013\Projects\CreationXML\CreationXML\obj\Debug\CreationXML.exe
+d:\utilisateur\documents\visual studio 2013\Projects\CreationXML\CreationXML\obj\Debug\CreationXML.pdb
+E:\Dossiers Thomas\Documents\CreationXML\CreationXML\CreationXML\bin\Debug\CreationXML.exe.config
+E:\Dossiers Thomas\Documents\CreationXML\CreationXML\CreationXML\obj\Debug\CreationXML.exe
+E:\Dossiers Thomas\Documents\CreationXML\CreationXML\CreationXML\obj\Debug\CreationXML.pdb
+E:\Dossiers Thomas\Documents\CreationXML\CreationXML\CreationXML\bin\Debug\CreationXML.exe
+E:\Dossiers Thomas\Documents\CreationXML\CreationXML\CreationXML\bin\Debug\CreationXML.pdb
+E:\Dossiers Thomas\Documents\CreationXML\CreationXML\CreationXML\obj\Debug\CreationXML.csprojResolveAssemblyReference.cache
+E:\Dossiers Thomas\Documents\CreationXML\CreationXML\CreationXML\obj\Debug\CreationXML.Form1.resources
+E:\Dossiers Thomas\Documents\CreationXML\CreationXML\CreationXML\obj\Debug\CreationXML.Properties.Resources.resources
+E:\Dossiers Thomas\Documents\CreationXML\CreationXML\CreationXML\obj\Debug\CreationXML.csproj.GenerateResource.Cache
+C:\Users\Thomas\Desktop\CreationXML\CreationXML\bin\Debug\CreationXML.exe.config
+C:\Users\Thomas\Desktop\CreationXML\CreationXML\obj\Debug\CreationXML.exe
+C:\Users\Thomas\Desktop\CreationXML\CreationXML\obj\Debug\CreationXML.pdb
+C:\Users\Thomas\Desktop\CreationXML\CreationXML\obj\Debug\CreationXML.Properties.Resources.resources
+C:\Users\Thomas\Desktop\CreationXML\CreationXML\obj\Debug\CreationXML.csproj.GenerateResource.Cache
+C:\Users\Thomas\Desktop\CreationXML\CreationXML\bin\Debug\CreationXML.exe
+C:\Users\Thomas\Desktop\CreationXML\CreationXML\bin\Debug\CreationXML.pdb
+C:\Users\Thomas\Desktop\CreationXML\CreationXML\obj\Debug\CreationXML.frmMain.resources
