@@ -10,6 +10,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Linq;
+using System.Security.Cryptography;
+
 
 namespace CreationXML
 {
@@ -102,12 +104,12 @@ namespace CreationXML
             elmVideo.LastChild.LastChild.AppendChild(txtActor);
 
             int i = 1;
-            foreach (TextBox txt in groupBox1.Controls.OfType<TextBox>().Reverse()) // Parcours de la liste des textbox pour définir le nombre de questions
+            foreach (TextBox laTextbox in groupBox1.Controls.OfType<TextBox>().Reverse()) // Parcours de la liste des textbox pour définir le nombre de questions
             {
-                if (txt.Text != "" && txt.Name != "txtBonneRep")
+                if (laTextbox.Text != "" && laTextbox.Name != "txtBonneRep")
                 {
                     newElement = document.CreateElement("CHOIX");
-                    txtActor = document.CreateTextNode(txt.Text);
+                    txtActor = document.CreateTextNode(laTextbox.Text);
                     elmVideo.LastChild.AppendChild(newElement);
                     elmVideo.LastChild.LastChild.AppendChild(txtActor);
 
@@ -120,10 +122,10 @@ namespace CreationXML
 
                     // Permet de vérifier si le radiobouton de la textbox est checked (bonne rep)
                     RadioButton btnChecked = groupBox2.Controls.OfType<RadioButton>().FirstOrDefault(n => n.Checked);
-                    if (btnChecked.Name == "rdbRep" + txt.Name.Substring(txt.Name.Length - 2, 2))
-                        newAttr.Value = "true";
+                    if (btnChecked.Name == "rdbRep" + laTextbox.Name.Substring(laTextbox.Name.Length - 2, 2))
+                        newAttr.Value = hachageString("true", laTextbox.Text);
                     else
-                        newAttr.Value = "false";
+                        newAttr.Value = hachageString("false", laTextbox.Text);
                     
 
                     newElement.Attributes.Append(newAttr);
@@ -176,6 +178,13 @@ namespace CreationXML
             txtRep03.ResetText();
             txtBonneRep.ResetText();
             rdbRep01.Checked = true;
+        }
+
+        private string hachageString(string valRep, string laReponse) // Permet de hacher la valeur de la reponse (true/false) et la reponse (ex : energie electrique)
+        {
+            byte[] buffer = System.Text.Encoding.ASCII.GetBytes(valRep + laReponse + "lpcrspm2015");
+            SHA1CryptoServiceProvider cryptoTransformSHA1 = new SHA1CryptoServiceProvider();
+            return (BitConverter.ToString(cryptoTransformSHA1.ComputeHash(buffer)).Replace("-", "").ToUpper());
         }
 
         private void Form1_Load(object sender, EventArgs e)

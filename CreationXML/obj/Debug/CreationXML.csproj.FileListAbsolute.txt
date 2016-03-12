@@ -24,3 +24,11 @@ C:\Users\Thomas\Desktop\CreationXML\CreationXML\obj\Debug\CreationXML.csproj.Gen
 C:\Users\Thomas\Desktop\CreationXML\CreationXML\bin\Debug\CreationXML.exe
 C:\Users\Thomas\Desktop\CreationXML\CreationXML\bin\Debug\CreationXML.pdb
 C:\Users\Thomas\Desktop\CreationXML\CreationXML\obj\Debug\CreationXML.frmMain.resources
+D:\Utilisateur\Documents\XMLGenerator\CreationXML\bin\Debug\CreationXML.exe.config
+D:\Utilisateur\Documents\XMLGenerator\CreationXML\obj\Debug\CreationXML.exe
+D:\Utilisateur\Documents\XMLGenerator\CreationXML\obj\Debug\CreationXML.pdb
+D:\Utilisateur\Documents\XMLGenerator\CreationXML\bin\Debug\CreationXML.exe
+D:\Utilisateur\Documents\XMLGenerator\CreationXML\bin\Debug\CreationXML.pdb
+D:\Utilisateur\Documents\XMLGenerator\CreationXML\obj\Debug\CreationXML.frmMain.resources
+D:\Utilisateur\Documents\XMLGenerator\CreationXML\obj\Debug\CreationXML.Properties.Resources.resources
+D:\Utilisateur\Documents\XMLGenerator\CreationXML\obj\Debug\CreationXML.csproj.GenerateResource.Cache
