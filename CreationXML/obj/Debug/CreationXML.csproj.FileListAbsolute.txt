@@ -32,3 +32,13 @@ D:\Utilisateur\Documents\XMLGenerator\CreationXML\bin\Debug\CreationXML.pdb
 D:\Utilisateur\Documents\XMLGenerator\CreationXML\obj\Debug\CreationXML.frmMain.resources
 D:\Utilisateur\Documents\XMLGenerator\CreationXML\obj\Debug\CreationXML.Properties.Resources.resources
 D:\Utilisateur\Documents\XMLGenerator\CreationXML\obj\Debug\CreationXML.csproj.GenerateResource.Cache
+E:\Dossiers Thomas\Documents\XMLQuestionGenerator\CreationXML\bin\Debug\CreationXML.exe.config
+E:\Dossiers Thomas\Documents\XMLQuestionGenerator\CreationXML\obj\Debug\CreationXML.exe
+E:\Dossiers Thomas\Documents\XMLQuestionGenerator\CreationXML\obj\Debug\CreationXML.pdb
+E:\Dossiers Thomas\Documents\XMLQuestionGenerator\CreationXML\bin\Debug\CreationXML.exe
+E:\Dossiers Thomas\Documents\XMLQuestionGenerator\CreationXML\bin\Debug\CreationXML.pdb
+E:\Dossiers Thomas\Documents\XMLQuestionGenerator\CreationXML\obj\Debug\CreationXML.csprojResolveAssemblyReference.cache
+E:\Dossiers Thomas\Documents\XMLQuestionGenerator\CreationXML\obj\Debug\CreationXML.ArboFichier.resources
+E:\Dossiers Thomas\Documents\XMLQuestionGenerator\CreationXML\obj\Debug\CreationXML.frmMain.resources
+E:\Dossiers Thomas\Documents\XMLQuestionGenerator\CreationXML\obj\Debug\CreationXML.Properties.Resources.resources
+E:\Dossiers Thomas\Documents\XMLQuestionGenerator\CreationXML\obj\Debug\CreationXML.csproj.GenerateResource.Cache
