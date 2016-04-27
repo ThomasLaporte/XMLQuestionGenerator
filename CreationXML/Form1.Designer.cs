@@ -57,6 +57,8 @@
             this.grpAddQuest = new System.Windows.Forms.GroupBox();
             this.lblNomFichier = new System.Windows.Forms.Label();
             this.btnCreateXML = new System.Windows.Forms.Button();
+            this.btnMajQuest = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -188,10 +190,12 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnUpdate);
             this.groupBox1.Controls.Add(this.txtBonneRep);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.btnGenerer);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtRep03);
@@ -247,7 +251,7 @@
             // 
             // btnGenerer
             // 
-            this.btnGenerer.Location = new System.Drawing.Point(170, 434);
+            this.btnGenerer.Location = new System.Drawing.Point(50, 275);
             this.btnGenerer.Name = "btnGenerer";
             this.btnGenerer.Size = new System.Drawing.Size(128, 23);
             this.btnGenerer.TabIndex = 11;
@@ -321,7 +325,6 @@
             this.grpAddQuest.Controls.Add(this.groupBox3);
             this.grpAddQuest.Controls.Add(this.txtQuestion);
             this.grpAddQuest.Controls.Add(this.label1);
-            this.grpAddQuest.Controls.Add(this.btnGenerer);
             this.grpAddQuest.Controls.Add(this.groupBox1);
             this.grpAddQuest.Controls.Add(this.cbbGroupe);
             this.grpAddQuest.Location = new System.Drawing.Point(15, 69);
@@ -353,11 +356,34 @@
             this.btnCreateXML.UseVisualStyleBackColor = true;
             this.btnCreateXML.Click += new System.EventHandler(this.btnLoadXML_Click);
             // 
+            // btnMajQuest
+            // 
+            this.btnMajQuest.Location = new System.Drawing.Point(505, 69);
+            this.btnMajQuest.Name = "btnMajQuest";
+            this.btnMajQuest.Size = new System.Drawing.Size(66, 48);
+            this.btnMajQuest.TabIndex = 20;
+            this.btnMajQuest.Text = "Modifier question existante";
+            this.btnMajQuest.UseVisualStyleBackColor = true;
+            this.btnMajQuest.Visible = false;
+            this.btnMajQuest.Click += new System.EventHandler(this.btnMajQuest_Click);
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Enabled = false;
+            this.btnUpdate.Location = new System.Drawing.Point(265, 275);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(128, 23);
+            this.btnUpdate.TabIndex = 17;
+            this.btnUpdate.Text = "Enregistrer modifs";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(513, 563);
+            this.ClientSize = new System.Drawing.Size(583, 563);
+            this.Controls.Add(this.btnMajQuest);
             this.Controls.Add(this.btnCreateXML);
             this.Controls.Add(this.lblNomFichier);
             this.Controls.Add(this.grpAddQuest);
@@ -411,6 +437,8 @@
         private System.Windows.Forms.RadioButton rdbRep02;
         private System.Windows.Forms.RadioButton rdbRep01;
         private System.Windows.Forms.Button btnCreateXML;
+        private System.Windows.Forms.Button btnMajQuest;
+        private System.Windows.Forms.Button btnUpdate;
     }
 }
 
