@@ -42,3 +42,5 @@ E:\Dossiers Thomas\Documents\XMLQuestionGenerator\CreationXML\obj\Debug\Creation
 E:\Dossiers Thomas\Documents\XMLQuestionGenerator\CreationXML\obj\Debug\CreationXML.frmMain.resources
 E:\Dossiers Thomas\Documents\XMLQuestionGenerator\CreationXML\obj\Debug\CreationXML.Properties.Resources.resources
 E:\Dossiers Thomas\Documents\XMLQuestionGenerator\CreationXML\obj\Debug\CreationXML.csproj.GenerateResource.Cache
+D:\Utilisateur\Documents\XMLGenerator\CreationXML\obj\Debug\CreationXML.csprojResolveAssemblyReference.cache
+D:\Utilisateur\Documents\XMLGenerator\CreationXML\obj\Debug\CreationXML.ArboFichier.resources

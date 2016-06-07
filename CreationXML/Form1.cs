@@ -1,21 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
-using System.Xml.Linq;
 using System.Security.Cryptography;
-
 
 namespace CreationXML
 {
-    public partial class frmMain : Form
+    public partial class FrmMain : Form
     {
 
         private string path;
@@ -24,9 +15,10 @@ namespace CreationXML
         private string laQuestionAvModif = "";
         private string leGroupeAvModif = "";
         private int leNivAvModif = 1;
+        public bool ajoutQuestion = true;
 
         private XmlNode newNode;
-        public frmMain()
+        public FrmMain()
         {
             InitializeComponent();
         }
@@ -42,21 +34,22 @@ namespace CreationXML
             openFileDialog1.Filter = "Fichier texte (*.xml)|*.xml|Tous les fichiers (*.*)|*.*";
             openFileDialog1.FilterIndex = 0;
 
-            //--on affiche la boîte de dialogue et on récupère son résultat 
+            // On affiche la boîte de dialogue et on récupère son résultat 
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                //-------on récupère le nom du fichier 
+                // Récupération du nom du fichier
                 path = openFileDialog1.FileName;
+
 
                 if (((Button)sender).Name == "btnCreateXML")
                 {
-                    XmlTextWriter writerXML = new XmlTextWriter(path, System.Text.Encoding.UTF8);
-                    writerXML.Formatting = Formatting.Indented;
-                    writerXML.WriteStartDocument(false);
-                    writerXML.WriteStartElement("QCM");
-                    writerXML.WriteEndElement();
-                    writerXML.Flush();
-                    writerXML.Close();
+                    XmlTextWriter writerXml = new XmlTextWriter(path, System.Text.Encoding.UTF8);
+                    writerXml.Formatting = Formatting.Indented;
+                    writerXml.WriteStartDocument(false);
+                    writerXml.WriteStartElement("QCM");
+                    writerXml.WriteEndElement();
+                    writerXml.Flush();
+                    writerXml.Close();
                 }
 
                 string[] leFichier = path.Split('\\');
@@ -71,118 +64,108 @@ namespace CreationXML
             }
         }
 
-        private void parcoursXml(string path)
+        private void ParcoursXml(string path)
         {
             XmlDocument document = new XmlDocument();
 
             document.Load(path);
             //document.CreateElement("qcm");
-
-            XmlNode racine = document.SelectSingleNode("QCM").SelectSingleNode(cbbGroupe.SelectedItem.ToString().ToUpper());
-            if (racine == null)
+            try
             {
-                XmlElement categorie = document.CreateElement(cbbGroupe.SelectedItem.ToString().ToUpper());
-                // 2. Lier cet élément à l'élement parent (le niveau correspondant)
-                document.SelectSingleNode("QCM").AppendChild(categorie);
-
-                racine = document.SelectSingleNode("QCM").SelectSingleNode(cbbGroupe.SelectedItem.ToString().ToUpper());
-            }
-
-            XmlNode niveau = racine.SelectSingleNode("NIVEAU[@niv =" + verifNiveauQuest().ToString() + "]");
-            if (niveau == null)
-            {
-                XmlElement elemNiveau = document.CreateElement("NIVEAU");
-                // 2. Lier cet élément à l'élement parent (le niveau correspondant)
-                XmlNode elmVideo01 = racine;
-                elmVideo01.AppendChild(elemNiveau);
-
-                XmlAttribute newAttr = document.CreateAttribute("niv");
-                newAttr.Value = verifNiveauQuest().ToString();
-                elemNiveau.Attributes.Append(newAttr);
-
-                niveau = racine.SelectSingleNode("NIVEAU[@niv =" + verifNiveauQuest().ToString() + "]");
-            }
-
-            // 1. Créer un nouvel élément question.
-            XmlElement newElement = document.CreateElement("QUESTION");
-            // 2. Lier cet élément à l'élement parent (le niveau correspondant)
-            XmlNode leNiveau = niveau;
-            leNiveau.AppendChild(newElement);
-
-            // Création de l'élement Label (libellé question)
-            newElement = document.CreateElement("LIBELLE");
-            // Texte du libelle correspndant a la textbox libelle saisie
-            XmlText txtActor = document.CreateTextNode(txtQuestion.Text);
-            leNiveau.LastChild.AppendChild(newElement);
-            leNiveau.LastChild.LastChild.AppendChild(txtActor);
-
-            int i = 1;
-            foreach (TextBox laTextbox in groupBox1.Controls.OfType<TextBox>().Reverse()) // Parcours de la liste des textbox pour définir le nombre de questions
-            {
-                if (laTextbox.Text != "" && laTextbox.Name != "txtBonneRep")
+                XmlNode selectSingleNode = document.SelectSingleNode("QCM");
+                if (selectSingleNode != null)
                 {
-                    newElement = document.CreateElement("CHOIX");
-                    txtActor = document.CreateTextNode(laTextbox.Text);
+                    XmlNode racine = selectSingleNode.SelectSingleNode(cbbGroupe.SelectedItem.ToString().ToUpper());
+
+                    XmlElement categorie = document.CreateElement(cbbGroupe.SelectedItem.ToString().ToUpper());
+                    // 2. Lier cet élément à l'élement parent (le niveau correspondant)
+                    selectSingleNode.AppendChild(categorie);
+
+                    racine = selectSingleNode.SelectSingleNode(cbbGroupe.SelectedItem.ToString().ToUpper());
+
+
+                    XmlNode niveau = racine.SelectSingleNode("NIVEAU[@niv =" + VerifNiveauQuest().ToString() + "]");
+
+                    XmlElement elemNiveau = document.CreateElement("NIVEAU");
+                    // 2. Lier cet élément à l'élement parent (le niveau correspondant)
+                    XmlNode elmVideo01 = racine;
+                    elmVideo01.AppendChild(elemNiveau);
+
+                    XmlAttribute newAttr = document.CreateAttribute("niv");
+                    newAttr.Value = VerifNiveauQuest().ToString();
+                    elemNiveau.Attributes.Append(newAttr);
+
+                    niveau = racine.SelectSingleNode("NIVEAU[@niv =" + VerifNiveauQuest().ToString() + "]");
+
+
+                    // 1. Créer un nouvel élément question.
+                    XmlElement newElement = document.CreateElement("QUESTION");
+                    // 2. Lier cet élément à l'élement parent (le niveau correspondant)
+                    XmlNode leNiveau = niveau;
+                    leNiveau.AppendChild(newElement);
+
+                    // Création de l'élement Label (libellé question)
+                    newElement = document.CreateElement("LIBELLE");
+                    // Texte du libelle correspndant a la textbox libelle saisie
+                    XmlText txtActor = document.CreateTextNode(txtQuestion.Text);
                     leNiveau.LastChild.AppendChild(newElement);
                     leNiveau.LastChild.LastChild.AppendChild(txtActor);
 
-                    // Ajout de l'attribut "num" à l'élement "choix"
-                    XmlAttribute newAttr = document.CreateAttribute("num");
-                    newAttr.Value = i.ToString();
-                    newElement.Attributes.Append(newAttr);
+                    int i = 1;
+                    foreach (TextBox laTextbox in groupBox1.Controls.OfType<TextBox>().Reverse())
+                    // Parcours de la liste des textbox pour définir le nombre de questions
+                    {
+                        if (laTextbox.Text != "" && laTextbox.Name != "txtBonneRep")
+                        {
+                            newElement = document.CreateElement("CHOIX");
+                            txtActor = document.CreateTextNode(laTextbox.Text);
+                            leNiveau.LastChild.AppendChild(newElement);
+                            leNiveau.LastChild.LastChild.AppendChild(txtActor);
 
-                    newAttr = document.CreateAttribute("reponse");
+                            // Ajout de l'attribut "num" à l'élement "choix"
+                            newAttr = document.CreateAttribute("num");
+                            newAttr.Value = i.ToString();
+                            newElement.Attributes.Append(newAttr);
 
-                    // Permet de vérifier si le radiobouton de la textbox est checked (bonne rep)
-                    RadioButton btnChecked = groupBox2.Controls.OfType<RadioButton>().FirstOrDefault(n => n.Checked);
-                    if (btnChecked.Name == "rdbRep" + laTextbox.Name.Substring(laTextbox.Name.Length - 2, 2))
-                        newAttr.Value = hachageString("true", laTextbox.Text);
-                    else
-                        newAttr.Value = hachageString("false", laTextbox.Text);
+                            newAttr = document.CreateAttribute("reponse");
+
+                            // Permet de vérifier si le radiobouton de la textbox est checked (bonne rep)
+                            RadioButton btnChecked = groupBox2.Controls.OfType<RadioButton>().FirstOrDefault(n => n.Checked);
+                            if (btnChecked.Name == "rdbRep" + laTextbox.Name.Substring(laTextbox.Name.Length - 2, 2))
+                                newAttr.Value = HachageString("true", laTextbox.Text);
+                            else
+                                newAttr.Value = HachageString("false", laTextbox.Text);
 
 
-                    newElement.Attributes.Append(newAttr);
-                    i++;
+                            newElement.Attributes.Append(newAttr);
+                            i++;
+                        }
+                    }
+                    newElement = document.CreateElement("DESCRIPTION");
+                    txtActor = document.CreateTextNode(txtBonneRep.Text);
+                    leNiveau.LastChild.AppendChild(newElement);
+                    leNiveau.LastChild.LastChild.AppendChild(txtActor);
                 }
             }
-            newElement = document.CreateElement("DESCRIPTION");
-            txtActor = document.CreateTextNode(txtBonneRep.Text);
-            leNiveau.LastChild.AppendChild(newElement);
-            leNiveau.LastChild.LastChild.AppendChild(txtActor);
-
+            catch (Exception e)
+            {
+                MessageBox.Show("Un problème a été rencontré : \n" + e.Message);
+            }
             document.Save(path);
 
-            clearControls();
+            ClearControls();
         }
 
-        private void btnGenerer_Click(object sender, EventArgs e)
-        {
-            if (txtQuestion.Text != "" && txtRep01.Text != "")
-                parcoursXml(path);
-            else
-            {
-                if (txtQuestion.Text == "")
-                    MessageBox.Show("Veuillez saisir un libellé à la question");
-                if (txtRep01.Text == "")
-                    MessageBox.Show("Veuillez saisir au moins une réponse");
-            }
-            MessageBox.Show("Ajout de la question effectué avec succés ! ");
-        }
-
-        private int verifNiveauQuest()
+        private int VerifNiveauQuest()
         {
             if (rdbUp2.Checked)
-            {
                 return 2;
-            }
             if (rdbUp3.Checked)
-            {
                 return 3;
-            }
             return 1;
         }
 
-        private void clearControls()
+        private void ClearControls()
         {
             txtQuestion.ResetText();
             txtRep01.ResetText();
@@ -192,14 +175,18 @@ namespace CreationXML
             rdbRep01.Checked = true;
         }
 
-        public string hachageString(string valRep, string laReponse) // Permet de hacher la valeur de la reponse (true/false) et la reponse (ex : energie electrique)
+        /// <summary>
+        /// Permet de hacher la réponse
+        /// </summary>
+        /// <param name="valRep">true/false</param>
+        /// <param name="laReponse">Le libellé de la réponse</param>
+        /// <returns></returns>
+        public string HachageString(string valRep, string laReponse)
         {
             byte[] buffer = System.Text.Encoding.ASCII.GetBytes(valRep + laReponse + "lpcrspm2015");
-            SHA1CryptoServiceProvider cryptoTransformSHA1 = new SHA1CryptoServiceProvider();
-            return (BitConverter.ToString(cryptoTransformSHA1.ComputeHash(buffer)).Replace("-", "").ToUpper());
+            SHA1CryptoServiceProvider cryptoTransformSha1 = new SHA1CryptoServiceProvider();
+            return (BitConverter.ToString(cryptoTransformSha1.ComputeHash(buffer)).Replace("-", "").ToUpper());
         }
-
-
 
         /// <summary>
         /// Récupère les données de la question selectionnée dans le TreeView
@@ -212,7 +199,7 @@ namespace CreationXML
         /// <param name="rep03">Troisieme Réponse</param>
         /// <param name="idBonneRep">ID de la bonne réponse</param>
         /// <param name="bonneRep">Description de la réponse</param>
-        public void recupDonnees(string groupe, int niveau, string question, string rep01, string rep02, string rep03, int idBonneRep, string bonneRep) //public void recupDonnees(string groupe, int niveau, string question, string rep01, string rep02, string rep03, bool vrep01, bool vrep02, bool vrep03, string bonneRep)
+        public void RecupDonnees(string groupe, int niveau, string question, string rep01, string rep02, string rep03, int idBonneRep, string bonneRep) //public void recupDonnees(string groupe, int niveau, string question, string rep01, string rep02, string rep03, bool vrep01, bool vrep02, bool vrep03, string bonneRep)
         {
             // Récupération de la question avant modification
             laQuestionAvModif = question;
@@ -267,7 +254,7 @@ namespace CreationXML
             if (idBonneRep == 2)
                 rdbRep03.Checked = true;
 
-            btnUpdate.Enabled = true;
+            btnSave.Enabled = true;
 
         }
 
@@ -278,47 +265,84 @@ namespace CreationXML
         /// <param name="e"></param>
         private void btnMajQuest_Click(object sender, EventArgs e)
         {
-            btnGenerer.Enabled = false;
-
             ArboFichier frm = new ArboFichier(path, this);
             frm.Show();
+            //ajoutQuestion = false;
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Souhaitez-vous réellement enregistrer les modifications éffectuées sur la question ?", "Enregistrement modifications", MessageBoxButtons.OKCancel);
-
-            if (result == DialogResult.OK)
+            // Ajout d'une nouvelle question
+            if (ajoutQuestion)
             {
-                XmlDocument document = new XmlDocument();
-                document.Load(path);
-                foreach (XmlNode elem in document.SelectSingleNode("QCM").SelectSingleNode(leGroupeAvModif))
-                {
-                    if (elem.Attributes["niv"].Value == leNivAvModif.ToString())
-                    {
-                        foreach (XmlNode quest in elem.SelectNodes("QUESTION"))
-                        {
-                            if (quest.SelectSingleNode("LIBELLE").InnerText == laQuestionAvModif)
-                            {
-                                // Suppression de la question
-                                document.SelectSingleNode("QCM").SelectSingleNode(leGroupeAvModif).SelectSingleNode("NIVEAU").RemoveChild(quest);
-                                document.Save(path);
 
-                                // Ajout 
-                                if (txtQuestion.Text != "" && txtRep01.Text != "")
-                                    parcoursXml(path);
-                                else
+                if (txtQuestion.Text != "" && txtRep01.Text != "")
+                    ParcoursXml(path);
+                else
+                {
+                    if (txtQuestion.Text == "")
+                        MessageBox.Show("Veuillez saisir un libellé à la question");
+                    if (txtRep01.Text == "")
+                        MessageBox.Show("Veuillez saisir au moins une réponse");
+                }
+                MessageBox.Show("Ajout de la question effectué avec succés ! ");
+            }
+            else
+            {
+                // MAJ Question existante
+                DialogResult result = MessageBox.Show("Souhaitez-vous réellement enregistrer les modifications effectuées sur la question ?", "Enregistrement modifications", MessageBoxButtons.YesNoCancel);
+
+                if (result == DialogResult.Yes)
+                {
+                    XmlDocument document = new XmlDocument();
+                    document.Load(path);
+                    XmlNode node = document.SelectSingleNode("QCM");
+                    if (node != null)
+                    {
+                        XmlNode selectSingleNode = node.SelectSingleNode(leGroupeAvModif);
+                        if (selectSingleNode != null)
+                            foreach (XmlNode elem in selectSingleNode)
+                            {
+                                if (elem.Attributes != null && elem.Attributes["niv"].Value == leNivAvModif.ToString())
                                 {
-                                    if (txtQuestion.Text == "")
-                                        MessageBox.Show("Veuillez saisir un libellé à la question");
-                                    if (txtRep01.Text == "")
-                                        MessageBox.Show("Veuillez saisir au moins une réponse");
+                                    XmlNodeList xmlNodeList = elem.SelectNodes("QUESTION");
+                                    if (xmlNodeList != null)
+                                        foreach (XmlNode quest in xmlNodeList)
+                                        {
+                                            XmlNode singleNode = quest.SelectSingleNode("LIBELLE");
+                                            if (singleNode != null && singleNode.InnerText == laQuestionAvModif)
+                                            {
+                                                if (txtQuestion.Text != "" && txtRep01.Text != "")
+                                                {
+                                                    // Suppression de la question
+                                                    XmlNode xmlNode = selectSingleNode.SelectSingleNode("NIVEAU");
+                                                    if (xmlNode != null)
+                                                        xmlNode.RemoveChild(quest);
+                                                    document.Save(path);
+
+                                                    // Ajout 
+                                                    ParcoursXml(path);
+                                                    MessageBox.Show("Mise à jour effectuée avec succés ! ");
+                                                    ajoutQuestion = true;
+                                                }
+                                                else
+                                                {
+                                                    if (txtQuestion.Text == "")
+                                                        MessageBox.Show("Veuillez saisir un libellé à la question");
+                                                    if (txtRep01.Text == "")
+                                                        MessageBox.Show("Veuillez saisir au moins une réponse");
+                                                }
+                                                break;
+                                            }
+                                        }
                                 }
-                                MessageBox.Show("Mise à jour effectuée avec succés ! ");
-                                break;
                             }
-                        }
                     }
+                }
+                else
+                {
+                    if (result == DialogResult.No)
+                        ClearControls();
                 }
             }
         }
