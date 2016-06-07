@@ -20,7 +20,7 @@ namespace CreationXML
 
         private void ArboFichier_Load(object sender, EventArgs e)
         {
-            // SECTION 1. Chargement du fichier XML
+            // SECTION 1. Chargement du fichier XML 
             dom = new XmlDocument();
             dom.Load(chemin);
 
