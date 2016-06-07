@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<QCM>
+  <SOLAIRE>
+    <NIVEAU niv="1">
+      <QUESTION>
+        <LIBELLE>Quelle sont les rayons possédant le plus d'énergie ?</LIBELLE>
+        <CHOIX num="1" reponse="false">Les rayons perçue comme la couleur verte</CHOIX>
+        <CHOIX num="2" reponse="true">Les rayons perçue comme la couleur bleue	</CHOIX>
+        <CHOIX num="3" reponse="false">Les rayons perçue comme la couleur rouge</CHOIX>
+        <DESCRIPTION>La longueur d’une onde dépend entre autres de son énergie, et c’est selon cette longueur que nous percevons un rayon lumineux comme une couleur. A ce sujet, le bleu correspond à la longueur d’onde la plus courte et donc celle qui possède le plus d’énergie.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel est le ratio énergétique moyen des panneaux photovoltaïques ?</LIBELLE>
+        <CHOIX num="1" reponse="26AABFAC757158B885AE13C17D6D6B02B84629A4">Entre 45 et 100%</CHOIX>
+        <CHOIX num="2" reponse="CE4A4BFEAB7956977F8DC5595DEFD270AB018D84">Entre 5 et 30%</CHOIX>
+        <CHOIX num="3" reponse="4C20A7EFAE9EB9D0623BBF9E1B8044BF7AC1F283">Entre 25 et 45%</CHOIX>
+        <DESCRIPTION>Les panneaux photovoltaïque ne convertissent entre 5% et 30%. Sur terre, où, en absence de nuage, la puissance du soleil (ou l'irradiance) est de l'ordre de 1000 W/m².
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quelle est la conversion énergétique effectuée par un four solaire ?</LIBELLE>
+        <CHOIX num="1" reponse="6D07915622CDA0CA6F58C5EF2AE9D85C15E38C1D">L'énergie thermique convertit en énergie électrique</CHOIX>
+        <CHOIX num="2" reponse="D2E38ABBCD72BF643BB0FEE56464123315A92E45">L'énergie rayonnante convertit en énergie électrique</CHOIX>
+        <CHOIX num="3" reponse="94F7DB38F39A0D4111193290E66780E9906331C4">L'énergie rayonnante convertit en énergie thermique</CHOIX>
+        <DESCRIPTION>le four solaire se sert de l'énergie rayonnante pour produire de la chaleur, source d'un convertisseur électrothermique.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quelle est la conversion énergétique que l'on retrouve dans les panneaux photovoltaïque ?</LIBELLE>
+        <CHOIX num="1" reponse="1059D3BE8F449FBC8BC14055EFD8DE85EEDBF616">L'énergie thermique convertit en énergie electrique</CHOIX>
+        <CHOIX num="2" reponse="B553CA6A4CE6E7325F92A90A01C81C723F028FC6">L'énergie rayonnante convertit en énergie électrique	</CHOIX>
+        <CHOIX num="3" reponse="94F7DB38F39A0D4111193290E66780E9906331C4">L'énergie rayonnante convertit en énergie thermique</CHOIX>
+        <DESCRIPTION>Plus adaptée à la production d'électricité, les panneaux solaire absorbent l'énergie rayonnante en énergie électrique à l’aide de l’effet photovoltaïque :  un phénomène photoélectrique. Des formes plus coûteuses, comme les cellules photovoltaïque, fonctionnent sur le même principe.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quelle est l'unité de grandeur physique de stockage d'énergie que l'on ne retrouve pas dans un dans un chauffe-eau solaire ?</LIBELLE>
+        <CHOIX num="1" reponse="446C6FAD5F7A8944875D8F72AFB903B8ECD4DE78">L'intensité I</CHOIX>
+        <CHOIX num="2" reponse="47B223C7E3C5AF4CF6DEA52189D40F328AD3140C">La capacité thermique massique C</CHOIX>
+        <CHOIX num="3" reponse="CF93F89951BE8795DC60EC064DABA642E1F53708">La variation de température ∆θ</CHOIX>
+        <DESCRIPTION>On retrouve “C” chez l'élément de stockage, le chauffe eau solaire. “∆θ” concerne l'énergie stockée. “I” est une grandeur caractéristique de l'énergie électromagnétique.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Vrai ou Faux : l’efficacité énergétique moyen de la photosynthèse est supérieur à celui des panneaux photovaltaïque ?</LIBELLE>
+        <CHOIX num="1" reponse="FDF9846482FB66125C6EAE1B864C978357DB045D">Vrai</CHOIX>
+        <CHOIX num="2" reponse="25B99C66415D8119A5C56B3EF9201ED2C67787D3">Faux</CHOIX>
+        <CHOIX num="3" reponse="775AAEFCDFB5E7004DFD7843E3DFFFC3C75A3EEE">Je ne sais pas</CHOIX>
+        <DESCRIPTION>On pourrait penser que la nature nous devance dans ce domaine depuis bien longtemps. Cependant, l’efficacité de la photosynthèse varie entre 3 et 6 %.
+</DESCRIPTION>
+      </QUESTION>
+    </NIVEAU>
+    <NIVEAU niv="2">
+      <QUESTION>
+        <LIBELLE>Quel est l’organisation matérielle d’une installation de panneaux photovoltaïque ?</LIBELLE>
+        <CHOIX num="1" reponse="8010107ED00C0110EDD1250522EB87CCD0568E1D">Panneaux photo-voltaïques→ onduleur→ compteur</CHOIX>
+        <CHOIX num="2" reponse="4DAFB23ED7525B553AF22FEFDF1DDA8D7A0ED390">Panneaux phoro-voltaïque → redresseur → onduleur</CHOIX>
+        <CHOIX num="3" reponse="BFBA6E8DDFC7EAFA553DC5204466827CCA281809">Panneaux photo-voltaïque → modulateur → compteur</CHOIX>
+        <DESCRIPTION>L’Irradiance est récupérés par les matériaux semi-conducteur qui fournit une énergie électrique, que l’onduleur transforme en courant de 50hz, et dont le compteur fournit l’énergie revendue.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>En quoi est composé les panneau photovoltaïque ?</LIBELLE>
+        <CHOIX num="1" reponse="26C358F26156FCD50F5810DDA0745527AFC17BC3">En silice</CHOIX>
+        <CHOIX num="2" reponse="0CB337E16E43324F4F8052F24A18424F89E9E648">En aluminium</CHOIX>
+        <CHOIX num="3" reponse="64AC56B58A985ACB322921B61D061D7F701C5C55">En quartz</CHOIX>
+        <DESCRIPTION>Par son habilité à conduire le courant, un semi-conducteur est un matériau se situant entre le conducteur et l’isolant. Les éléments uniques les plus utilisés pour les semiconducteurs sont le silicium, le germanium et le carbone. </DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel est la longueur d'onde absorbée par un panneau en silicium amorphe ?</LIBELLE>
+        <CHOIX num="1" reponse="DE0C373E00C7ADCBC4EFF6DC06197A940E9EC4F3">Entre 0.25 et 1.2 micromètre</CHOIX>
+        <CHOIX num="2" reponse="0A3FC87C8579544C08C9B13496208B4A347E8307">Entre 0.40 et 0.70 micromètre</CHOIX>
+        <CHOIX num="3" reponse="12EC00D3BE536BC0927AECCAE51F4CA8C25A4067">Entre 0.25 et 0.75 micromètre</CHOIX>
+        <DESCRIPTION>Un panneau photovoltaïque n’absorbe pas l’ensemble du rayonnement émis par le soleil, comme l’oeil humain qui n’est sensible qu’à une partie du spectre électromagnétique. Cela fait partie des pertes du panneau solaire.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Vrai ou faux: la répartition des rayons solaires est similaires sur tout le globe :</LIBELLE>
+        <CHOIX num="1" reponse="9BBF36528DEDA1C17F757F77B918FB24887A7EA4">Vrai</CHOIX>
+        <CHOIX num="2" reponse="775AAEFCDFB5E7004DFD7843E3DFFFC3C75A3EEE">Je ne sais pas</CHOIX>
+        <CHOIX num="3" reponse="24FF369D7C3D0A799ED7B4C7BEBC29EC799B78CD">Faux</CHOIX>
+        <DESCRIPTION>De fait que la planête soit de forme ronde, la répartition des rayons de soleil sur la surface est très différente selon les régions, plus faibles vers les pôles et plus fortes au niveau de l'équateur.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel est le premier producteur d'energie solaire en 2012</LIBELLE>
+        <CHOIX num="1" reponse="4FC31FBE848A30C3E72B0B4548A345FFEAD9A485">L'Allemagne</CHOIX>
+        <CHOIX num="2" reponse="ED76D55087CB195BE004A5185BE4AB0CA9F7E05C">La France</CHOIX>
+        <CHOIX num="3" reponse="A434BB58AFC36862322826024784330E21CF9E27">La Chine</CHOIX>
+        <DESCRIPTION>L'Allemagne est le pays qui produit le plus d'énergie solaire En 2012 avec 26,1% de l'énergie produite.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Dans la formule v=C/λ, quel est l'unité de mesure pour v ?</LIBELLE>
+        <CHOIX num="1" reponse="04789341F96EB7A16C2ACCE9E6803E0A3E0AA775">m/s</CHOIX>
+        <CHOIX num="2" reponse="6E80B7EE9A68E073D20F238C451398A8FFF790CE">eV</CHOIX>
+        <CHOIX num="3" reponse="44419D4160F9B9A3066467E7E15CAAB551EE28E0">Hz</CHOIX>
+        <DESCRIPTION>Cette formule correspond à la relation entre la fréquence de l’onde v et la longueur d’onde λ. la lumière rouge a une fréquence d'onde de 750 THz</DESCRIPTION>
+      </QUESTION>
+    </NIVEAU>
+    <NIVEAU niv="3">
+      <QUESTION>
+        <LIBELLE>Quel silicium ayant le meilleur rendement?</LIBELLE>
+        <CHOIX num="1" reponse="9716ADE14D137BA71D41B1517EC6663FFC0BA49F">Silicium amorphe</CHOIX>
+        <CHOIX num="2" reponse="53D468FE2A158DC509E5EE37E25100045EF56812">Silicium monocristallin</CHOIX>
+        <CHOIX num="3" reponse="4061DE68EB37F711FD77C65798B477FD7756F74D">silicium polycristallin</CHOIX>
+        <DESCRIPTION>Les cellules fait de silicum monocristallin sont celles ayant le meilleur rendement (15% environ). Cependant celle-ci ne fonctionne pas par faible éclairement, contrairement au silicium amorphe.
+
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel est la formule permettant de calculer la puissance solaire reçu ?</LIBELLE>
+        <CHOIX num="1" reponse="07AE15CAF1FBFA847FFF7F785F6B7478DDBB73B6">Psolaire = I x t</CHOIX>
+        <CHOIX num="2" reponse="FD95D6D4A9E028A520A7793CDC0FA8FD763D0CDC">Psolaire = E x t</CHOIX>
+        <CHOIX num="3" reponse="46463A6FEE5CEBDA9C3A75EB6524221EEC8BE381">Psolaire = Ir x S</CHOIX>
+        <DESCRIPTION>La puissance solaire reçu dépend de l'irradiance, en W/m², et de la surface en m²</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Parmi ces pertes, laquel n'appartient pas à l'énergie solaire ?</LIBELLE>
+        <CHOIX num="1" reponse="C4D46DA7F07964612BBEE54CDA1014792273514A">Pertes d'énergie électrique par effet Joule</CHOIX>
+        <CHOIX num="2" reponse="E722605AD46DFAF66592BA93C40FA63A0E00EBAA">Pertes optiques</CHOIX>
+        <CHOIX num="3" reponse="2B72C5FEA3FA1BA0F7FF53C67E327CF3536DC3C8">Pertes par conduction</CHOIX>
+        <DESCRIPTION>En effet, la dissipation de l'energie par effet joules fait partie de l'energie perdue par les circuit électrique et est donc indépendantes de la perte d'energie des panneaux solaires.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel sont les éléments qui compose un panneau thermique ?</LIBELLE>
+        <CHOIX num="1" reponse="ED2B26720A916D16B93AC57274A1958C8789C565">heliostat, foyer, miroirs en parabole</CHOIX>
+        <CHOIX num="2" reponse="ED95E6B336A75424A9949B19E6F88BEF7C4F7076">cathode, anode, couches de silicium</CHOIX>
+        <CHOIX num="3" reponse="53E1A25FDF30B954A39300DCEA3088BFFC7097EA">Fluide caloporteur, Vitre, Absorbeur </CHOIX>
+        <DESCRIPTION>Un panneau thermique est un panneau recueillant l'énergie solaire et la transmettant à un fluide caloporteur sous forme de chaleur. Celle -ci est utilisé pour chauffer les bâtiments, plus que pour la production d'électricité.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Qu'est-ce qu'un fluide caloporteur ?</LIBELLE>
+        <CHOIX num="1" reponse="814607583D70D3476FB37BA9DEAF37BE0C9CE6F4">Un liquide utilisé pour transporter de la chaleur.</CHOIX>
+        <CHOIX num="2" reponse="CF1F40E1D1E9C8A855E4D76A63B5C478271B4DCD">Un liquide produisant de la chaleur par réaction chimique</CHOIX>
+        <CHOIX num="3" reponse="FC180DAD10684D2902FEB38EDC06763DEB32B897">Un gaz ou un liquide utilisé pour transporter de la chaleur.</CHOIX>
+        <DESCRIPTION>
+        </DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>combien de couches de silicium compose un panneau photovoltaïque ?</LIBELLE>
+        <CHOIX num="1" reponse="3FCFD9C7ECEB74E5FFD60339A78C560340ECD840">4</CHOIX>
+        <CHOIX num="2" reponse="7E613A99ED55405D4A4C0DCB02CD59999CE64E25">2</CHOIX>
+        <CHOIX num="3" reponse="15C4CD1C642CD9AFBCBF4C6ACECA239AAB230788">8</CHOIX>
+        <DESCRIPTION>Un panneau photovoltaïque contient une couche positive et négative de silicium. cette jonction entre P et N est équivalent à un générateur de courant.</DESCRIPTION>
+      </QUESTION>
+    </NIVEAU>
+  </SOLAIRE>
+  <VENT>
+    <NIVEAU niv="1">
+      <QUESTION>
+        <LIBELLE>Une éolienne comporte :</LIBELLE>
+        <CHOIX num="1" reponse="true">Une turbine</CHOIX>
+        <CHOIX num="2" reponse="false">Une turbine</CHOIX>
+        <CHOIX num="3" reponse="false">Un tripode</CHOIX>
+        <DESCRIPTION>La tour correspond à la structure soutenant l’éolienne. le tripode correspond à celle de l’hydrolienne.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quelle est la conversion énergétique effectuée par une hélice éolienne ?</LIBELLE>
+        <CHOIX num="1" reponse="3BA21A8CDBFC1D77EA3655A7D153E9508A2E8B4B">L'énergie thermique en énergie électrique</CHOIX>
+        <CHOIX num="2" reponse="75D21DD5EE86534351262532E7AAA42E6B54C4B8">L'énergie mécanique convertit en énergie électrique</CHOIX>
+        <CHOIX num="3" reponse="31724E19B423020DB93D0CE3840A0AA850E59882">L'énergie fluidique convertit en énergie mécanique</CHOIX>
+        <DESCRIPTION>à l’instar de l’eau, le “débit du vent” est considéré comme faisant parti de l’énergie fluidique. Ce n’est pas pour rien que les éoliennes s’inspirent des technologies de l’aéronautique. 
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Le désavantage principale de l’énergie éolienne par rapport à l’énergie solaire est :</LIBELLE>
+        <CHOIX num="1" reponse="73BEE5AB862D4ED4F2B64E4EA7B9369177E7A2A9">Son faible rendement</CHOIX>
+        <CHOIX num="2" reponse="615D361F17779AEBC9616A2C1DD88266C814480E">Son empreinte carbone</CHOIX>
+        <CHOIX num="3" reponse="5E74296B1F459D31578F403FE48C09F79EC3D570">Sa production journalière</CHOIX>
+        <DESCRIPTION>L’éolienne a un production très capricieuse ! Si il n’y a pas assez de vent, celle-ci cesse de tourner, alors que si il y en trop, pour des risques de sécurité, il faut l'arrêter. Son rendement est néanmoins supérieur à son concurrent.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel est le rendement énergétique moyen d’une éolienne ?</LIBELLE>
+        <CHOIX num="1" reponse="B282D65E5EF385B4519643CE1707661EE81173C5">Entre 5 et 30 %</CHOIX>
+        <CHOIX num="2" reponse="45AA0BA27D668276E16D07FD017859852CA290A0">Entre 25 et 45 %</CHOIX>
+        <CHOIX num="3" reponse="BB4163E9321C09C4FE0F9CA3B6DE16600C7B6C9C">Entre 40 et 60 %</CHOIX>
+        <DESCRIPTION>Le rendement énergétique moyen d’une éolienne se situe entre 25 et 45%. Les éoliennes sont en général bien équipées, et il n’y a quasiment aucunes pertes aux niveaux des parties électriques.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Qu’est-ce qui décrit le mieux le stockage de l'énergie mécanique de l’éolienne ?</LIBELLE>
+        <CHOIX num="1" reponse="7EF38BA6A1F75799E1C8433ACCCBE61D561F8367">Cinétique de translation</CHOIX>
+        <CHOIX num="2" reponse="E4DA7F97F755DD0B6969E0C010E911B92C2C6E80">Potentielle élastique</CHOIX>
+        <CHOIX num="3" reponse="71510CF02A3FD2D9960CCE10F59BE4E61E751B28">Cinétique de rotation</CHOIX>
+        <DESCRIPTION>Bien entendu, c’est le fait de tourner qui permet de stocker l’énergie fluidique en énergie mécanique.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Vrai ou faux, il n’y pas de vitesse minimum du vent pour les éoliennes.</LIBELLE>
+        <CHOIX num="1" reponse="FDF9846482FB66125C6EAE1B864C978357DB045D">Vrai</CHOIX>
+        <CHOIX num="2" reponse="25B99C66415D8119A5C56B3EF9201ED2C67787D3">Faux</CHOIX>
+        <CHOIX num="3" reponse="F1E779C71755B5B67F5B62C08F7DFCB9E829C928">je ne sais pas</CHOIX>
+        <DESCRIPTION>Il faut bel et bien une certaine énergie initiale pour faire tourner une éolienne. il y a aussi une énergie maximale, pour des raisons de sécurités.
+</DESCRIPTION>
+      </QUESTION>
+    </NIVEAU>
+    <NIVEAU niv="2">
+      <QUESTION>
+        <LIBELLE>A part la vitesse du vent, quel facteur modifie l'apport d'énergie des pales ?</LIBELLE>
+        <CHOIX num="1" reponse="E554FAEB35410EC1498F5C4CCE1C500CDDFF21C0">La surface balayée par les pales</CHOIX>
+        <CHOIX num="2" reponse="75A178B311C62B3DADB51C8560B15EAA9FBE3D5E">Les materiaux utilisés pour les pales</CHOIX>
+        <CHOIX num="3" reponse="2F0E9A3BE5A81BE96271EF0D97E0F39406A54BF0">L'angles des pales</CHOIX>
+        <DESCRIPTION>La puissance de l'aérogénérateur dépend de la surface balayée et de la vitesse du vent. Cette surface balayée dépend de la longueur L et de la corde de la pale c.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Vrai ou Faux : certaines éoliennes sont fait en bois</LIBELLE>
+        <CHOIX num="1" reponse="FDF9846482FB66125C6EAE1B864C978357DB045D">Vrai</CHOIX>
+        <CHOIX num="2" reponse="25B99C66415D8119A5C56B3EF9201ED2C67787D3">Faux</CHOIX>
+        <CHOIX num="3" reponse="775AAEFCDFB5E7004DFD7843E3DFFFC3C75A3EEE">Je ne sais pas</CHOIX>
+        <DESCRIPTION>On utilise de préférence le pin d'Oregon ou du pin sylvestre du Nord traité industriellement qui présente une bonne résistance à la fatigue. on applique ensuite un traitement hydrofuge.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Dans la formule Ppot = 1/2.p.S.V^3, à quoi correspond p ?</LIBELLE>
+        <CHOIX num="1" reponse="A99FD5348945DF689621EF460A91B7CA2750F34A">A la surface balayée</CHOIX>
+        <CHOIX num="2" reponse="04ED7F3B405D1968CA3012784CB5D599A45D685C">A la vitesse du vent</CHOIX>
+        <CHOIX num="3" reponse="12C7DFD06827ABF8168666B8485D4CB42938F109">A la densité de l'air</CHOIX>
+        <DESCRIPTION>p correspond à la densité de l'air, V à la sa vitesse, et S à la surface balayée par les pales.
+Le tout donne la puisance potentielle Ppot, en Watt.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel est la longueur maximale d'une pale ?</LIBELLE>
+        <CHOIX num="1" reponse="55F1CB71A49EE0549CBA6E41C2EE0ADB917D3A6A">47.9 mêtre</CHOIX>
+        <CHOIX num="2" reponse="199838B89E2A4BD8B7378D9428AD6DBB60EA49FE">65 mêtre</CHOIX>
+        <CHOIX num="3" reponse="9133763EF8266829B6EF5428B103FE6E8AF5274E">75 mêtre</CHOIX>
+        <DESCRIPTION>Le record de la longueur d'une pale est de 75 mètre et fut fabriqués par le constructeur Siemens.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel est la meilleure zone pour placer une éolienne ?</LIBELLE>
+        <CHOIX num="1" reponse="8CCA20C9255958D39C94F2B9230F12894F683C7F">La montagne</CHOIX>
+        <CHOIX num="2" reponse="8C0DA4652FECC477468FABDFE10F1877A9AED505">La côte</CHOIX>
+        <CHOIX num="3" reponse="1F39747569064434031209A7EED89ECD0033FAB7">Le désert</CHOIX>
+        <DESCRIPTION>La montagne a peut-être le plus de vent, cependant les nombreuses turbulences empêche les éoliennes d'y fonctionner correctement.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quelle formule correspond à l’énergie maximale transformée par l’éolienne ?</LIBELLE>
+        <CHOIX num="1" reponse="6E75D1AB5827B9AFD9E3B5685A6983F3C1257819">Ec=1/2.p.v²</CHOIX>
+        <CHOIX num="2" reponse="338AEBC7F077D91B328E3A0F6C4E50F8B92570BA">Ec=1/2.m.v²</CHOIX>
+        <CHOIX num="3" reponse="61CFA34813D676E46F6B96AFF7FBA0EFDB1BF6BD">Ec=1/2.J.v²</CHOIX>
+        <DESCRIPTION>On exprime l'énergie cinétique Ec (en Joules) d'une masse m (en kg) se déplaçant à une vitesse v (en m/s) au carré de la vitesse.</DESCRIPTION>
+      </QUESTION>
+    </NIVEAU>
+    <NIVEAU niv="3">
+      <QUESTION>
+        <LIBELLE>Qu'est-ce que la limite de Betz ?</LIBELLE>
+        <CHOIX num="1" reponse="5F4A9C33A0FB48C0C83434E366B64FDAE1BED264">La limite maximale de vent auxquelles on peut récupérés de l'énergie</CHOIX>
+        <CHOIX num="2" reponse="59DBE1238EAA6B0C67F64948E446A924D284157F">La proportion maximale théorique du rotor sur le mat</CHOIX>
+        <CHOIX num="3" reponse="2820A703B4C0BE2D9B578909DE2413D33FFBDAF6">La proportion maximale théorique de vent récupérés.</CHOIX>
+        <DESCRIPTION>La limite de Betz est une loi qui indique la puissance théorique maximale développée par un capteur éolien. Elle est égale à 16/27 de la puissance  du vent qui traverse l'éolienne.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>La valeur p dépend de :</LIBELLE>
+        <CHOIX num="1" reponse="F3E758C38D94FB31CB4918BB669812B2F45D8B07">La vitesse</CHOIX>
+        <CHOIX num="2" reponse="CBD77C8D46B90E4DE9039B7118207048ABBD2A4E">La température</CHOIX>
+        <CHOIX num="3" reponse="F75736539840D4A89E837C169BBC8CE144C3779C">L'angle du rotor</CHOIX>
+        <DESCRIPTION>L’air a une masse qui dépend de son taux  d’humidité  et  de  sa  température.  pour déterminer l’énergie cinétique de celui-ci lors de son déplacement il est nécessaire de connaître sa masse. </DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Qu'est-ce que l'échelle de Beaufort ?</LIBELLE>
+        <CHOIX num="1" reponse="5C4B69AA201007C57E60720A9C4810C9DDA17E12">Une échelle de mesure du vent en mer</CHOIX>
+        <CHOIX num="2" reponse="C0030D35D6AFB387A978AE0D8394C14942321F1D">Une échelle de mesure du vent sur la terre ferme</CHOIX>
+        <CHOIX num="3" reponse="074D9E219959FB592C36C16787D5E359937C3D77">Une échelle de mesure du vent dans toutes situations</CHOIX>
+        <DESCRIPTION>L'échelle de beaufort est une échelle empirique, comme celle de richter, ayant pour but de juger l'étât de la mer en fonction de la vitesse du vent.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Vrai ou faux : parmi les raisons de pertes d'energie du rotor, le nombre de pales en fait partie :</LIBELLE>
+        <CHOIX num="1" reponse="FDF9846482FB66125C6EAE1B864C978357DB045D">Vrai</CHOIX>
+        <CHOIX num="2" reponse="25B99C66415D8119A5C56B3EF9201ED2C67787D3">Faux</CHOIX>
+        <CHOIX num="3" reponse="775AAEFCDFB5E7004DFD7843E3DFFFC3C75A3EEE">Je ne sais pas</CHOIX>
+        <DESCRIPTION>En effet, le nombre de pales est une des pertes d'une éolienne, avec les turbulences, les bouts de pales, et leurs profils aérodynamiques</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel est la formule de la vitesse angulaire du rotor ?</LIBELLE>
+        <CHOIX num="1" reponse="BF2DBD88D28833B6BBBBCD56A0A2F8E36B902294">ω = pi.f²</CHOIX>
+        <CHOIX num="2" reponse="B0166572DBA211366D6DB1EC9515FEE403FF1EEE">ω = pi.2f</CHOIX>
+        <CHOIX num="3" reponse="60202A450D709DAA099CD1D5B3DE0728788BFCFA">ω = 2pi.f</CHOIX>
+        <DESCRIPTION>La vitesse angulaire ω aussi appelée fréquence angulaire ou pulsation, est une mesure de la vitesse de rotation calculés en radians.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>La portance d'une pales éolienne est en :</LIBELLE>
+        <CHOIX num="1" reponse="1AA151D45981DFBA862BB232D5821F42F9B32F23">Joules (J)</CHOIX>
+        <CHOIX num="2" reponse="950D6F991E6F2B46919738EC35E4B456851E9AB1">Newton (N)</CHOIX>
+        <CHOIX num="3" reponse="A6FCB606FAD916C2AC23CAA5EC8651F5EA36467D">Newton par mêtre carré (surface N/m²)</CHOIX>
+        <DESCRIPTION>Comme pour l'avion, l'éolienne a une portance, dù à l'écoulement de l'air autour de celle-ci.</DESCRIPTION>
+      </QUESTION>
+    </NIVEAU>
+  </VENT>
+  <EAU>
+    <NIVEAU niv="1">
+      <QUESTION>
+        <LIBELLE>Quel est le rendement moyen d’un barrage hydraulique ?</LIBELLE>
+        <CHOIX num="1" reponse="212D923210EBE815358ED2F6454BDA79C22920CD">Entre 40 et 60%</CHOIX>
+        <CHOIX num="2" reponse="2E4DA6FE75DFEA47F461A24FE9CE338B5A47B60D">Entre 50 et 70 %</CHOIX>
+        <CHOIX num="3" reponse="B1FF59E498D0C8DE4C374A34835E0AE36AFE7381">Entre 70 % et 85 %</CHOIX>
+        <DESCRIPTION>Il s’agit de l’un des plus importants rendement des énergie renouvelables. C'est une des raison pour laquelle l’énergie de l’eau fut utilisée bien avant l’âge électronique.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Á quoi sert principalement un barrage ?</LIBELLE>
+        <CHOIX num="1" reponse="E32142C4C5FBC3B15AF691C816D41E1D2B6E0945">Á l’irrigation</CHOIX>
+        <CHOIX num="2" reponse="47C0BEB373A63C6F2269877D2CD6A3BCC759314C">Au contrôle des crues</CHOIX>
+        <CHOIX num="3" reponse="4FEA7EBB54EF59561DA1C33BEF0E8C61BA6ABC7A">Á production d'électricité</CHOIX>
+        <DESCRIPTION>L’eau, avant que son débit ne soit source d’énergie, est avant tout le centre névralgique de la production de nourriture. La population s'agrandissant de jour en jour, la question de la nourriture est devenue rapidement un enjeu mondiale.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quelle est l'énergie stockée par les barrages ?</LIBELLE>
+        <CHOIX num="1" reponse="4A24639354F28041019754E06881E99365F994DD">L’énergie potentielle</CHOIX>
+        <CHOIX num="2" reponse="906A7FCCA7359C705809CB9ABF2DC27D129E5D7D">L’énergie fluidique</CHOIX>
+        <CHOIX num="3" reponse="8899FEE39FE004CDC31BF1E3997CF701783C009A">L’énergie mécanique</CHOIX>
+        <DESCRIPTION>Bien que ce soit la turbine qui donne de l’énergie mécanique, actionnée par l’énergie fluidique de l’eau, il s’agit avant tout de la retenue d’eau qui constitue la principale source d’énergie dans un barrage.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Vrai ou faux : certains barrages sont fait avec de la terre.</LIBELLE>
+        <CHOIX num="1" reponse="FDF9846482FB66125C6EAE1B864C978357DB045D">Vrai</CHOIX>
+        <CHOIX num="2" reponse="25B99C66415D8119A5C56B3EF9201ED2C67787D3">Faux</CHOIX>
+        <CHOIX num="3" reponse="74DFD522D3E39FA73ABC24557D52F6B49763BB85">Je ne sais aps</CHOIX>
+        <DESCRIPTION>Le béton n’est pas le seul matériaux utilisés pour ces grandes structures. Le barrage le plus haut du monde, le barrage de Nourek, est fait principalement de terres et de roches.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>En 2012, Quel était le pourcentage d’énergie produit par les barrages hydrauliques dans le mondes ?</LIBELLE>
+        <CHOIX num="1" reponse="5701DAF27DAE21626DB259939279D18A05885D65">10,9%</CHOIX>
+        <CHOIX num="2" reponse="424707DD87F2E0F27AEABC3D6F1896D04209E4AF">20,8%</CHOIX>
+        <CHOIX num="3" reponse="1FEC06DAED65EA0092137A9BD14A8B11B9F47AD5">16.2 %</CHOIX>
+        <DESCRIPTION>La production d’énergies renouvelables correspond qu’à 1/5ème de l’énergie produite. La large majoritée de la production vient uniquement des énergies hydrauliques provenant des barrages.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Á quoi sert la conduite forcée :</LIBELLE>
+        <CHOIX num="1" reponse="7564540E4B9EFA6B31A15E4AE227FCFE3C89C382">Á transformer l’énergie hydraulique cinétique en énergie mécanique de rotation</CHOIX>
+        <CHOIX num="2" reponse="BB9F58F84A0C68E47B8D5E4E054CF2EE3FBDB146">Á transformer l’énergie hydraulique potentielle en énergie fluidique</CHOIX>
+        <CHOIX num="3" reponse="F268B92C64A0E975629B4100E0C784FC78764363">Á enlever le surplus d’eau</CHOIX>
+        <DESCRIPTION>La conduite forcée dans le barrage permet de laisser passer le débit d’eau voulue permettant à la même occasion, de transformer l’énergie potentielle en énergie fluidique.
+</DESCRIPTION>
+      </QUESTION>
+    </NIVEAU>
+    <NIVEAU niv="2">
+      <QUESTION>
+        <LIBELLE>Quel est la fin du cycle du produit des vannes hydraulique ?</LIBELLE>
+        <CHOIX num="1" reponse="3FBD5E0FFED0C33496532B498D70230A7D71E676">Utilisation des vannes</CHOIX>
+        <CHOIX num="2" reponse="917E7C842E79DF8EE77FD03D26D188538DE726E8">Désossement des vannes</CHOIX>
+        <CHOIX num="3" reponse="DD88946484F2CF369B923594B187D11A020841B7">Recyclage des vannes</CHOIX>
+        <DESCRIPTION>En effet, le dernier élément d’un cycle de produit est le recyclage de celui-ci en vue d’un future utilisation. c’est la gestion de fin de vie.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Vrai ou faux, le béton est recyclable dans les barrages :</LIBELLE>
+        <CHOIX num="1" reponse="9BBF36528DEDA1C17F757F77B918FB24887A7EA4">Vrai</CHOIX>
+        <CHOIX num="2" reponse="24FF369D7C3D0A799ED7B4C7BEBC29EC799B78CD">Faux</CHOIX>
+        <CHOIX num="3" reponse="775AAEFCDFB5E7004DFD7843E3DFFFC3C75A3EEE">Je ne sais pas</CHOIX>
+        <DESCRIPTION>Dans un barrage, les vannes en acier sont recyclable, mais pas le béton, dont l’impact écologique est dés lors plus négatif.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Que provoque le dépôt de sédiment dans les barrages ?</LIBELLE>
+        <CHOIX num="1" reponse="4E27247C27229E51474BCA4ACB7B23C6E5548741">Une fluidification de l’eau</CHOIX>
+        <CHOIX num="2" reponse="47724D8092E9CC45F54BA5EFBF06A8AB59BFD9E8">Des dommages causés aux turbines.</CHOIX>
+        <CHOIX num="3" reponse="FB3D19E722822DBB2333F13E0DF165920B78E4DC">Une érodation du béton</CHOIX>
+        <DESCRIPTION>l’un des dégâts entre autre causé par une sédimentation de l’eau et le dysfonctionnement progressif des vannes.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel est la formule de l'énergie potentielle ?</LIBELLE>
+        <CHOIX num="1" reponse="BE53500C08D3F4DCD97FF8EE41F4DFF8728BEEAE">W = m.√(g²).h</CHOIX>
+        <CHOIX num="2" reponse="83B603AB72A0DCF3A54030F6050F661020B5C566">W = m.g.h²</CHOIX>
+        <CHOIX num="3" reponse="CE74CFBBF5BBB35BC9808AE4178C1AE0476911F0">W = m².g.h</CHOIX>
+        <DESCRIPTION>En effet, W = m.g.h est la formule de l'énergie potentielle. h étant la différence entre le point haut et bas en mêtre.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel formule est équivalente à P=W/t</LIBELLE>
+        <CHOIX num="1" reponse="87C3B7F0AF5EBF3BE543CFFBAF634EC1286EF582">P=u.Q.h.g</CHOIX>
+        <CHOIX num="2" reponse="13B7908216B8370D4E1B4E56311C6985108142ED">P=(u.V.g)/t</CHOIX>
+        <CHOIX num="3" reponse="3781874F2E447E250FED4A6245B22EEA0E0DAA45">Les deux</CHOIX>
+        <DESCRIPTION>En effet, P dépend la masse volumique u, du débit Q, de la hauteur h et de la constante de gravitation g.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>mce ou mêtres de colonnes d'eau se traduit en :</LIBELLE>
+        <CHOIX num="1" reponse="2E36CDF34191FC819BDFA9F79592E0E7567C44B2">Débit</CHOIX>
+        <CHOIX num="2" reponse="B3358910BE7C6C76EEF9DBE917CD94136E76509A">Hauteur</CHOIX>
+        <CHOIX num="3" reponse="0E4B545104959E941E442AAB591D1B0731F400EA">Pression</CHOIX>
+        <DESCRIPTION>La hauteur Manométrique totale est souvent calculés en MCE dans le cas de barrage avec pompe plutôt qu'en bar</DESCRIPTION>
+      </QUESTION>
+    </NIVEAU>
+    <NIVEAU niv="3">
+      <QUESTION>
+        <LIBELLE>Vrai ou faux: 1 bar correspond toujours à 10,19 mCE</LIBELLE>
+        <CHOIX num="1" reponse="9BBF36528DEDA1C17F757F77B918FB24887A7EA4">Vrai</CHOIX>
+        <CHOIX num="2" reponse="24FF369D7C3D0A799ED7B4C7BEBC29EC799B78CD">Faux</CHOIX>
+        <CHOIX num="3" reponse="775AAEFCDFB5E7004DFD7843E3DFFFC3C75A3EEE">Je ne sais pas</CHOIX>
+        <DESCRIPTION>Le mêtre d'eau dépend aussi de la masse volumique, qui dépend elle, de la température. A 4°C, 1 bar équivaut effectivement à 10,19 mCE, mais ce n'est pas toujours le cas</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>A quoi sert le pompage turbinage ?</LIBELLE>
+        <CHOIX num="1" reponse="E0CAD29C0D1787194C6BD846685564A32A1227B9">A stocker l'énergie électrique</CHOIX>
+        <CHOIX num="2" reponse="FEABAD4CF4CE2D949235DEEFAFCAB535CD6FE0A2">A stocker l'énergie mécanique</CHOIX>
+        <CHOIX num="3" reponse="D40467D890E9CE3F34C8BB52C0F4A79C846307E4">A stocker l'énergie potentielle</CHOIX>
+        <DESCRIPTION>Les pompes servent à récuperer l'eau tombés du barrage et la remontés au point de départ dans le cas ou un besoin d'énergie serait nécessaire. Elle sont utilisés pour l'irrigation.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Parmi ces systèmes, lequel n'est pas un aménagement hydraulique</LIBELLE>
+        <CHOIX num="1" reponse="40761A10A0E8C8C207DEBF74155332B940860716">Aménagement par accumulation</CHOIX>
+        <CHOIX num="2" reponse="0E26390301787FA36F4B214865001A61432B6D1A">Aménagement par dérivation</CHOIX>
+        <CHOIX num="3" reponse="31DEF4AE6754AA558E22E2607FA12B6D803F539F">Aucun des deux</CHOIX>
+        <DESCRIPTION>Le barrage par accumulation est celui qui stoppe l'eau et créer la chute, là ou la dérivation fait passer l'eau par une pente plus faible pour créer ensuite la chute.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel est la particularité des barrages poids ?</LIBELLE>
+        <CHOIX num="1" reponse="14D9F996296009F8824058645CD6A538355AFE7E">Ils sont les plus renforcé dans leur fondation</CHOIX>
+        <CHOIX num="2" reponse="9056E0D89DDFF74645A1347076BA83443171ADEE">Ils ne servent pas à la production d'électricité</CHOIX>
+        <CHOIX num="3" reponse="5D651C0D9E0E91732F42E7B05DA9BCE664AE346B">Ils possèdent des contreforts</CHOIX>
+        <DESCRIPTION>Le barrage poidsfait face à une pression bien plus fortes en bas de la retenue qu'en haut, sans artifices supplémentaire, il est bien plus renforcés dans ses fondations qu'à son bord.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Que comporte un barrage mobile ?</LIBELLE>
+        <CHOIX num="1" reponse="ABD0617C7C4C089527F1688D850E09C47C235B4B">Un réservoir</CHOIX>
+        <CHOIX num="2" reponse="896B5FB6425593B0C2EAC5DDEC1E864395D33FF1">Des piles</CHOIX>
+        <CHOIX num="3" reponse="1526135F8EDEDCF3D122316346805C49FF751A76">Un groupe Pelton</CHOIX>
+        <DESCRIPTION>Les piles sont les contreforts d'un barrage mobiles, elles soutiennent le barrage.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel est la formule du théorème de bernoulli ?</LIBELLE>
+        <CHOIX num="1" reponse="693A3CAF8DDEEBC8E1F855EB7F28EC5A524862E3">p/pg+V²+z=constante de bernoulli</CHOIX>
+        <CHOIX num="2" reponse="BE410641387F1BC71CC23C35C490A320793115DC">p/ρg + V²/2g = constante de bernoulli</CHOIX>
+        <CHOIX num="3" reponse="0276EC2A5ECD806563DBD178D29448E7D80ACA39">p/ρg + V² = constante de bernoulli</CHOIX>
+        <DESCRIPTION>Le théorème de Bernoulli exprime le bilan hydraulique simplifié d'un fluide parfait incompressible dans une conduite. </DESCRIPTION>
+      </QUESTION>
+    </NIVEAU>
+  </EAU>
+  <HABITATION>
+    <NIVEAU niv="1">
+      <QUESTION>
+        <LIBELLE>Parmi ces réponses, quelle est celle qui correspond à un modulateur d’énergies electriques ?</LIBELLE>
+        <CHOIX num="1" reponse="true">AC/DC</CHOIX>
+        <CHOIX num="2" reponse="false">GC/DC</CHOIX>
+        <CHOIX num="3" reponse="false">AC/GT</CHOIX>
+        <DESCRIPTION>Et oui, AC/DC correspond bien à un modulateurs pour énergie électrique. C’est aussi le nom du célèbre groupe de rock, dont le logo est aussi un éclair.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel est l’unité de mesure pour l’intensité du courant :</LIBELLE>
+        <CHOIX num="1" reponse="F1FB82AD3DA25207054830EEBC58AE533B2784C5">I</CHOIX>
+        <CHOIX num="2" reponse="DB127721499A1C0F2998A6D51463CD895EF60D0E">V</CHOIX>
+        <CHOIX num="3" reponse="FAA4AFDD3105BB943961111060DE0795EA45AC03">A</CHOIX>
+        <DESCRIPTION>La grandeur de l’intensité du courant est I, et son unité de mesure est en ampère A. il décrit le débit du courant.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel est la conversion d’énergie effectués par une pile hydrogène ?</LIBELLE>
+        <CHOIX num="1" reponse="ADF8F81651FFF11C83C443C4DB95C91FB1E7597C">Energie chimique en energie electrique.</CHOIX>
+        <CHOIX num="2" reponse="6A165D4339510E6FB416CEE2E8B8E681B694A80C">Energie electrique en energie electrique.</CHOIX>
+        <CHOIX num="3" reponse="EC980C981C7852095598A6C6820A9E8EEB3F7F03">Energie chimique en energie mecanique.</CHOIX>
+        <DESCRIPTION>La pile à hydrogène est une pile dans laquelle la génération d'une tension électrique se fait grâce à une réaction d’oxydation, transformant l’énergie chimique en énergie électrique.
+
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Que signifie AC ?</LIBELLE>
+        <CHOIX num="1" reponse="9AA887D404F059362BC62BDDE2204669987819CE">Alimentation Continue</CHOIX>
+        <CHOIX num="2" reponse="95ABE79E980D9003646AB140FB3121791CFB00D3">Courant Alternatif</CHOIX>
+        <CHOIX num="3" reponse="A7533609F782E951D6F7996CB6DA6CD577A4C496">Cycle en Alternance</CHOIX>
+        <DESCRIPTION>En effet, AC signifie courant alternatif, ou courant électrique périodique. Ces propriétés lui permettent notamment de faire déplacer les électrons à l’aide d’un mouvement de va et vient.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE> Quel unité de mesure permet de quantifier le E dans la formule : E=P*(T2-T1) ?</LIBELLE>
+        <CHOIX num="1" reponse="4BD625B9C2A05378AF61B09BC1CADEB6441CC597">Calorie</CHOIX>
+        <CHOIX num="2" reponse="57B48D16125055A95B1B934AE1AFC09828C68C46">W</CHOIX>
+        <CHOIX num="3" reponse="C4A1695E4702D64CB4AFDDCB8CC0E0E04313CFAF">N</CHOIX>
+        <DESCRIPTION>E correspond à Energie, qui se calcule en joule. Les calories sont en vérité une certaine valeur en joules, à savoir 4185 J. C’est une valeur souvent utilisée dans la nourriture.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE> Qu’est-ce qu’un modulateur ?</LIBELLE>
+        <CHOIX num="1" reponse="88029CC9C1C24D5571F33EA14F443BBF6E4B9F4C">Une résistance électrique dans un circuit, permettant d'y modifier l'intensité du courant.</CHOIX>
+        <CHOIX num="2" reponse="6E883A93AF952BD499EE6BD42A56406FF4BF1C45">Un montage électronique assurant ce qu'on appelle un « découpage de phase ».</CHOIX>
+        <CHOIX num="3" reponse="3FED2D8CEBE1497C6AF6D0D739B80DA966A36199">Un appareil convertissant une énergie chimique en énergie électrique.</CHOIX>
+        <DESCRIPTION>Le modulateur  fonctionne à la manière d'un interrupteur qui allume et éteint très rapidement l'ampoule. L'inertie thermique du filament rend ce clignotement imperceptible.
+</DESCRIPTION>
+      </QUESTION>
+    </NIVEAU>
+    <NIVEAU niv="2">
+      <QUESTION>
+        <LIBELLE>A quoi sert un transformateur électrique ?</LIBELLE>
+        <CHOIX num="1" reponse="8516A0E559035ED187DFA10456732DA1767904B1">A convertir une énergie thermique en énergie électrique</CHOIX>
+        <CHOIX num="2" reponse="F3A0330D00CC4B3667484C392C686B8D6D46F165">A transformer un courant électrique sinusoïdale en courant continue</CHOIX>
+        <CHOIX num="3" reponse="46D5188AA38E8A936E2A7E8FA84040119E187176">A modifier la tension d'un courant</CHOIX>
+        <DESCRIPTION>Le tranformateur relie deux circuit, un circuit primaire et secondaire. il renvoie  une tension supérieur ou inférieur du premier au second.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>A partir de combien de mA le courant est-il mortel ?</LIBELLE>
+        <CHOIX num="1" reponse="7676B26BC526083205F0896496EC74637A58CAD3">&gt;30 mA</CHOIX>
+        <CHOIX num="2" reponse="5AFB60E939ADE4973552B9A767109D43F01674CE">&gt;100 mA</CHOIX>
+        <CHOIX num="3" reponse="4CED004E0DE545BF585C72241D479C5B2F319B20">&gt;500 mA</CHOIX>
+        <DESCRIPTION>à plus de 30 mA, l'intensité devient dangereuse pour un cors humain... Si elle prolongée d'au moins 10 secondes. Il ne faut pas négliger la composante de temps lors d'une électrocution.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Parmi ces dispositifs de protection, lequel est à usage unique ?</LIBELLE>
+        <CHOIX num="1" reponse="CF3206E52898CAFD16F2AD8E9126D5712A4A5D44">disjoncteur à branchement</CHOIX>
+        <CHOIX num="2" reponse="53CA43CA32ACCAE86163BBCC0DE2269B637419A1">disjoncteur classique</CHOIX>
+        <CHOIX num="3" reponse="C5D675A27D588C339D90275CDDA4A1FC5609B927">fusibles</CHOIX>
+        <DESCRIPTION>Le fusibles possède une partie conductrice qui fond et ouvre le circuit lorsque l’intensité du courant dépasse une valeur spécifique (calibre). dés lors, le fusibe est dit grillé.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Rangez ces étapes des chemins de l'électricité dans l'ordre :</LIBELLE>
+        <CHOIX num="1" reponse="3B33C78BBD4981CF924C67E6022D2BF15B8C8C79">production, distribution, alimentation générale</CHOIX>
+        <CHOIX num="2" reponse="EC251DA002250C91CCE77FA0E21EA0D5C6E5253A">distribution, transformateur, alimentation générale</CHOIX>
+        <CHOIX num="3" reponse="15FEA0554096779588459C66613D9E73EA8A6E21">production, distribution, transformateur</CHOIX>
+        <DESCRIPTION>Les étapes de distribution de l'electricité sont : Production, Réseau 400 000 volts, Alimentation générale, Réseau de distribution, Transformateur.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>quel est la formule de la pulsation électrique sinusoïdale ?</LIBELLE>
+        <CHOIX num="1" reponse="7D481F35F60BCEFC878A55087DD3C068117F7C1F">u(t) = Umax * sin(ωt)</CHOIX>
+        <CHOIX num="2" reponse="D9BF8D8F497E1F267673AFA98EC04E24ED0195F9">u(t) = Umax * cos(ωt)</CHOIX>
+        <CHOIX num="3" reponse="10807E24BC30814C2B492C624078DE597FA0BDEB">ω=2pi/T</CHOIX>
+        <DESCRIPTION>La pulsation est la vitesse angulaire dans une onde sinusoïdale.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Comment se mesure la quantité d'électricité ?</LIBELLE>
+        <CHOIX num="1" reponse="096045B767B74DED8D87AC0B6EE228262391ED1F">En coulomb C</CHOIX>
+        <CHOIX num="2" reponse="47E532F91FAF93EA130B0CD3A9B86AE3E3AD7535">En watts W</CHOIX>
+        <CHOIX num="3" reponse="689A4E2A0CDD274732C40C35139896CD4BA5A796">En Ampère A</CHOIX>
+        <DESCRIPTION>Le coulomb correspond à la quantité d'électricité qui passe dans un courant electriques et correspond à un certains nombres de charges élémentaires.</DESCRIPTION>
+      </QUESTION>
+    </NIVEAU>
+    <NIVEAU niv="3">
+      <QUESTION>
+        <LIBELLE>Dans un transformateur avec un circuit primaire et secondaire :</LIBELLE>
+        <CHOIX num="1" reponse="759DCCAE16D9F77C045A811C21E371494086D172">m=U1/U2=I2/I1</CHOIX>
+        <CHOIX num="2" reponse="60EF9D0D9E5DA39159E3774BB30BA4774DA1C6E1">m=U1/U2=I1/I2</CHOIX>
+        <CHOIX num="3" reponse="516E022E8256E2B49ED39335E6C741FCB1865C3C">U1/U2=I1/(I2*m)</CHOIX>
+        <DESCRIPTION>L'intensité dans un transformateur effectue l'action inverse de la tension de celui-ci. Plus le ratio et faible, plus l'intensité augmente.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Le coulomb C correspond à ?</LIBELLE>
+        <CHOIX num="1" reponse="6502946F0026A0CD609DC5B813F0A171E75737EF">W.s</CHOIX>
+        <CHOIX num="2" reponse="BD6B42078D53F7EF13BCDC518B8BC67EFB945637">A.s</CHOIX>
+        <CHOIX num="3" reponse="81F78AE11BC17B2316E9AA9AF9FDD1342E9B5A17">V.s</CHOIX>
+        <DESCRIPTION>La quantité d'électricité se définit par rapport à l'intensité du courant pendant 1 seconde très exactement 1A.s.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Qu'exprime la loi de coulomb ?</LIBELLE>
+        <CHOIX num="1" reponse="1D7D91BA76B2112F356D7149638C0067C6D64F1A">La force de l'interaction electrique de particules chargés</CHOIX>
+        <CHOIX num="2" reponse="159C5B3EC74FA4C51EABFBF4BFE9E5FC6ED0B3DB">la force d'interaction entre un proton et un neutron</CHOIX>
+        <CHOIX num="3" reponse="5CF104D38ED12DA8273AADDA1B449CE8F8D29A5E">L'interaction entre un courant alternatif et sinusoïdale</CHOIX>
+        <DESCRIPTION>La loi de coulomb exprime La force entre deux charges électriques. Elle dépend des deux charges et du carré de la distance entre les deux charges.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Vrai ou faux: une tension périodique est sinusoïdale ?</LIBELLE>
+        <CHOIX num="1" reponse="9BBF36528DEDA1C17F757F77B918FB24887A7EA4">Vrai</CHOIX>
+        <CHOIX num="2" reponse="24FF369D7C3D0A799ED7B4C7BEBC29EC799B78CD">Faux</CHOIX>
+        <CHOIX num="3" reponse="775AAEFCDFB5E7004DFD7843E3DFFFC3C75A3EEE">Je ne sais pas</CHOIX>
+        <DESCRIPTION>Une tension périodique n'est pas forcément une onde, et peut ne pas avoir de variations précises ou de période.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Dans une maille d’un réseau, la somme des tensions de la maille est :</LIBELLE>
+        <CHOIX num="1" reponse="0889A8F4E906A040D7206061159F610B05C09916">Proportionnelle à l'intensité de la maille</CHOIX>
+        <CHOIX num="2" reponse="DFA66C2822CDFFE83F6E86CC2B5C93DC2657C6BE">Nulle</CHOIX>
+        <CHOIX num="3" reponse="65C3160E748C317AD29927BAC895EA624E7B2D98">Egale à la tension du générateur</CHOIX>
+        <DESCRIPTION>La loi de kirchhroff dit que dans Dans une maille quelconque d’un réseau, la somme algébrique des tensions de la maille est nulle. </DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Laquelle de ces proposition est vrai ?</LIBELLE>
+        <CHOIX num="1" reponse="444AFD89C44D42F12B1A709851A61E2A73A468D1">P=U².R</CHOIX>
+        <CHOIX num="2" reponse="AE80C796DACF972A295356DC5C5A6CB36070C211">P= R.I</CHOIX>
+        <CHOIX num="3" reponse="DB84F64DBD653BAC5DB4D978EC308834E2B63CD7">Aucune</CHOIX>
+        <DESCRIPTION>La puissance en watts, selon la loi d'ohm, se calcule soit en P=U.I, soit P=R.I² soit P=U²/R.</DESCRIPTION>
+      </QUESTION>
+    </NIVEAU>
+  </HABITATION>
+  <POLE>
+    <NIVEAU niv="1">
+      <QUESTION>
+        <LIBELLE>Vrai ou faux, les éclairs négatifs sont de même intensités que les éclairs positifs :</LIBELLE>
+        <CHOIX num="1" reponse="9BBF36528DEDA1C17F757F77B918FB24887A7EA4">Vrai</CHOIX>
+        <CHOIX num="2" reponse="24FF369D7C3D0A799ED7B4C7BEBC29EC799B78CD">Faux</CHOIX>
+        <CHOIX num="3" reponse="775AAEFCDFB5E7004DFD7843E3DFFFC3C75A3EEE">Je ne sais pas</CHOIX>
+        <DESCRIPTION>Faux, les éclairs négatifs ont en effet une intensité moyenne dix fois moindre que les éclairs positifs.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel est l’énergie ne dépendant pas des rayons du soleil ?</LIBELLE>
+        <CHOIX num="1" reponse="8AD31C7B994913F575C2E294FEFBBDF03CD360AE">La géothermie</CHOIX>
+        <CHOIX num="2" reponse="1E47286B3055010706A634BBAC1EEE0C31E87175">L’éolienne</CHOIX>
+        <CHOIX num="3" reponse="CBDD54BAA246763B7C9EA9AA88EAFA1657408745">L’hydrolienne</CHOIX>
+        <DESCRIPTION>les mouvements du vents, et de l’eau sur notre planête est dû à l’évaporation de l’eau chauffés par le soleil, et à de multiples actions liés à celui-ci.
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel est la source d’énergie du soleil ?</LIBELLE>
+        <CHOIX num="1" reponse="33D6466828D07882917CB89E5FA0D5F2AAB8B4CC">L'énergie nucléaire.</CHOIX>
+        <CHOIX num="2" reponse="69221D39ACB5F62D05FB477AB6CA39190212F2EC">L'énergie thermique.</CHOIX>
+        <CHOIX num="3" reponse="81DD7A0532D413DA8198AB956BCA74E0E47AE57B">L'énergie électrique.</CHOIX>
+        <DESCRIPTION>La fusion atomique est la source d’énergie du soleil. l'énergie relâchée par les liaisons des nucléons du noyau atomique au coeur de l’étoile se convertit en énergie rayonnante.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE> Quel est le nom donnée à l’énergie fluidique de l’air ?</LIBELLE>
+        <CHOIX num="1" reponse="0023358D54104951C2F23FDAFD06B6A029CFCCDE">L'énergie éolien</CHOIX>
+        <CHOIX num="2" reponse="1ED380AD8D2DDB91CC75FA2BB9BA965B22F7B115">L'énergie aérolien</CHOIX>
+        <CHOIX num="3" reponse="120390323893468A90411B5E7533F6A8DABCE09C">L'énergie pneumatique</CHOIX>
+        <DESCRIPTION>l’énergie pneumatique correspond à l’énergie d’un gaz sous forme mécanique. un système pneumatique est fondé sur une différence de pressions entre deux zones.
+
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel est la source d’énergie des muscles ?</LIBELLE>
+        <CHOIX num="1" reponse="2A1B008EA132A530E34ED6B2936768610E58A3C2">L’énergie thermique</CHOIX>
+        <CHOIX num="2" reponse="57667FBF6693AD1BE159F8B243AF06969BDB0B86">L’énergie chimique</CHOIX>
+        <CHOIX num="3" reponse="C4CBA19B7A84B7297EF2073BF04E50856656CFAB">L’énergie électrique</CHOIX>
+        <DESCRIPTION>C’est par le biais de la transformation chimique de l’oxygène par les mitochondries que le corps humain produit de l’énergie, avec les glucides. C’est ainsi que l’on renvoit du CO2.
+
+</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Vrai ou faux : la majeur partie de la biomasse provient des plantes :</LIBELLE>
+        <CHOIX num="1" reponse="FDF9846482FB66125C6EAE1B864C978357DB045D">Vrai</CHOIX>
+        <CHOIX num="2" reponse="25B99C66415D8119A5C56B3EF9201ED2C67787D3">Faux</CHOIX>
+        <CHOIX num="3" reponse="775AAEFCDFB5E7004DFD7843E3DFFFC3C75A3EEE">Je ne sais pas</CHOIX>
+        <DESCRIPTION>La biomasse concerne avant tout les végétaux. Ils s’agit peu ou prou d’une forme indirecte de l’énergie solaire, car c’est la photosynthèse qui est à l’origine du cycle du carbone et donc, de la photosynthèse.
+</DESCRIPTION>
+      </QUESTION>
+    </NIVEAU>
+    <NIVEAU niv="2">
+      <QUESTION>
+        <LIBELLE>Quel substance créez-t-on majoritairement avec les glucides ?</LIBELLE>
+        <CHOIX num="1" reponse="B9903EF7EF043832FC4F66AB33D7213756EC6CFA">Du gaz de synthèse</CHOIX>
+        <CHOIX num="2" reponse="C6324FE9A1199E5018502ACA2CA3250915FD936E">Du biodiesel</CHOIX>
+        <CHOIX num="3" reponse="36949A7B1B067BF12F78FA0E2F3A8275F9D3A7D7">De l'éthanol</CHOIX>
+        <DESCRIPTION>Par fermentation, on transforme les glucides en éthanol, qui, mélangés à l'essence peut-être utilisés comme carburant.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Qu'est-ce que le fracking ?</LIBELLE>
+        <CHOIX num="1" reponse="1514788935C569AB02747A0A57D0CAE67B98EC54">La destruction de la roche pour en faire du carburant</CHOIX>
+        <CHOIX num="2" reponse="DA8639AD34E4FE09EBDFE1F3E05D29E19E8B6D7A">Une méthode de stimulation pour récupérer du gaz</CHOIX>
+        <CHOIX num="3" reponse="49D77C764AA5EA9633E666E87D10AB3CBEF69FC2">Les deux</CHOIX>
+        <DESCRIPTION>En introduisant dans des tubes horizontaux des fluides à hautes pressions, on rend la roche cassable et perméables pour en récuperer le gaz de schistes.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel sont les dangers écologiques du nucléaire ?</LIBELLE>
+        <CHOIX num="1" reponse="5C52228D8E904566C66BBE90E404325AF04C8903">La prolifération des armes atomiques</CHOIX>
+        <CHOIX num="2" reponse="A6918F021BD3080AF814E17DA0EC4E06CAAAA8B3">Le rejet de déchêt à la durée de vie immense</CHOIX>
+        <CHOIX num="3" reponse="BB560ADB795512F085E5BC409155E2AE8FB79EA0">Le rejet de gaz carbonique</CHOIX>
+        <DESCRIPTION>Les déchets nucléaires peuvent durer quelques centaines de milliers d'années. Aujourd'hui, seul la finlande a poser sérieusement la question des déchets radioactifs très toxiques.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel est la mine la plus profonde du monde</LIBELLE>
+        <CHOIX num="1" reponse="EE3606AC95C088E362A68455BD5965E696C89A60">Kola superdeep borehole</CHOIX>
+        <CHOIX num="2" reponse="C74D5805B88F1F6727C6A044C0CDBAD002FF6E51">Les mines Mponeng</CHOIX>
+        <CHOIX num="3" reponse="F58489A261CE72BFD8ED4D48A00DFB4A9398AEB4">Les mines south deep</CHOIX>
+        <DESCRIPTION>Les mines d'Afrique du sud font partie des plus profondes au mondes, et sont utilisés pour récupérés l'or.
+Le Kola superdeep borehole est par contre plus profond, mais n'a pas le même but.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel bombe utilise la fusion nucléaire</LIBELLE>
+        <CHOIX num="1" reponse="5AA4FE9692C6C809D6105BBF270CBD31304D7222">Bombe H</CHOIX>
+        <CHOIX num="2" reponse="BD8F5888B705941B99541CC16461CBAAE677A56B">Bombe A</CHOIX>
+        <CHOIX num="3" reponse="3781874F2E447E250FED4A6245B22EEA0E0DAA45">Les deux</CHOIX>
+        <DESCRIPTION>La bombe H, ou bombe hydrogène, créer une fusion nucléaire en son sein, et est 3 à 4 fois plus puissant qu'une bombe à fission nucléaire.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Qu'elle est la différence entre un isotope et un nucléide ?</LIBELLE>
+        <CHOIX num="1" reponse="DDB9F8EE45666CCB6A6AEDD041BB8CF5D0E52F56">Un isotope à plus ou moins de proton</CHOIX>
+        <CHOIX num="2" reponse="A7BB8A695AA35A9079B36FD09F2FC80F0BC681C4">Un isotope à plus ou moins de neutron</CHOIX>
+        <CHOIX num="3" reponse="FBA93C1CB04BAFBE42CFE96017B507A07EE36A8C">Un isotope à plus ou moins d'electron</CHOIX>
+        <DESCRIPTION>Un isotope est un nucléide qui possède un nombre différent de protons que sa forme stable. Il a dés lors une masse différente, et est souvent radioctif.</DESCRIPTION>
+      </QUESTION>
+    </NIVEAU>
+    <NIVEAU niv="3">
+      <QUESTION>
+        <LIBELLE>Quels sont les dangers du fracking ?</LIBELLE>
+        <CHOIX num="1" reponse="BADC49948B6F60A939D860C20B19ACB1A1B63F4F">L'échappement du gaz à la surface</CHOIX>
+        <CHOIX num="2" reponse="C4449460AB2CBB06AE4C49F213176888EC979177">La possibilité de séïsmes</CHOIX>
+        <CHOIX num="3" reponse="60A54B39F55174BA7897FB86EACA93E241ED0278">La contamination d'eau potable</CHOIX>
+        <DESCRIPTION>Les produits utilisés lors du fracking sont pour certains très toxiques. Ceux-ci ont parfois, fautes de négligences, contaminés des nappes phréatiques entières.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Vrai ou faux: Le nucléaire réduit l'émission de gaz C02.</LIBELLE>
+        <CHOIX num="1" reponse="FDF9846482FB66125C6EAE1B864C978357DB045D">Vrai</CHOIX>
+        <CHOIX num="2" reponse="25B99C66415D8119A5C56B3EF9201ED2C67787D3">Faux</CHOIX>
+        <CHOIX num="3" reponse="775AAEFCDFB5E7004DFD7843E3DFFFC3C75A3EEE">Je ne sais pas</CHOIX>
+        <DESCRIPTION>En devenant de plus en plus l'alternative au énergie fossile, le nucléaire, en ne rejetant pas de CO2, Permet de réduire le rejet de ce gaz à effet de serre.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel élément pense-t-on utiliser pour créer des fusions nucléaire ?</LIBELLE>
+        <CHOIX num="1" reponse="D77D7979EC93B49157622F459A0AC7132E69CEAC">De l'hélium</CHOIX>
+        <CHOIX num="2" reponse="38967CF695397636C7F52462BD2552038894E359">De l'uranium</CHOIX>
+        <CHOIX num="3" reponse="C489D9F3E6FFF2AA408204EDE2583D061B337E5C">Du deutérium</CHOIX>
+        <DESCRIPTION>Le deutérium, trouvables en quantité dans la mer, est un isotope qui pourrait être utilisé pour la fusion nucléaire, cette réaction avec un autre créerait un atome d'héium.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Qu'est-ce qui a la même masse, mais ni le même nombre de N ou de Z ?</LIBELLE>
+        <CHOIX num="1" reponse="E77BB2FC9F5A7675DCE5E3E9CBD43230E6FE2FF3">Isotopes</CHOIX>
+        <CHOIX num="2" reponse="D17E4F777CD6126F23A7BCE3E964AB36F326B54C">Isotones</CHOIX>
+        <CHOIX num="3" reponse="778D680C668439B8489EEB2EE71FC04869EDC275">Isobares</CHOIX>
+        <DESCRIPTION>Deux nucléides qui possèdent le même nombre de nucléons sont des isobares (Z différents, A identiques, N différents), par exemple le carbone 14 et l'azote 14.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Quel sont les conditions de la méthaneisation ?</LIBELLE>
+        <CHOIX num="1" reponse="527024F3B573A27A5F70603807B02B9D11041247">L'absence d'air</CHOIX>
+        <CHOIX num="2" reponse="58061344E70626B8B71A3F4600317B096D9EF1D0">Une abondance de lumière</CHOIX>
+        <CHOIX num="3" reponse="EC65615A9097F1C45A9A6223EC7543B2D7E37CFD">L'absence de lumière</CHOIX>
+        <DESCRIPTION>La méthaneisation ne se créer que lors d'anaérobie, l'absence d'air. il se produit dans certains marais, rizières et sédiments.</DESCRIPTION>
+      </QUESTION>
+      <QUESTION>
+        <LIBELLE>Vrai ou faux: le pétrole fait partie de la biomasse ?</LIBELLE>
+        <CHOIX num="1" reponse="EBC71F66677222B87D5FB0722DBB1CEA59E50A89">vrai</CHOIX>
+        <CHOIX num="2" reponse="25202B839F4517FF547AB13022F89FE02AAB76B6">faux</CHOIX>
+        <CHOIX num="3" reponse="775AAEFCDFB5E7004DFD7843E3DFFFC3C75A3EEE">Je ne sais pas</CHOIX>
+        <DESCRIPTION>Le pétrole est en fait un certains nombres de sédiments, qui, par méthanisation et longues périodes, c'est transformer en un liquide huileux qu'est le pétrole. C'est de la même manière que le gaz naturelle existe.</DESCRIPTION>
+      </QUESTION>
+    </NIVEAU>
+  </POLE>
+</QCM>
