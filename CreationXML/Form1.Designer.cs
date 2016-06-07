@@ -1,6 +1,6 @@
 ﻿namespace CreationXML
 {
-    partial class frmMain
+    partial class FrmMain
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -43,11 +43,11 @@
             this.rdbRep02 = new System.Windows.Forms.RadioButton();
             this.rdbRep01 = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnSave = new System.Windows.Forms.Button();
             this.txtBonneRep = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.cbbGroupe = new System.Windows.Forms.ComboBox();
-            this.btnGenerer = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtQuestion = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -58,7 +58,6 @@
             this.lblNomFichier = new System.Windows.Forms.Label();
             this.btnCreateXML = new System.Windows.Forms.Button();
             this.btnMajQuest = new System.Windows.Forms.Button();
-            this.btnUpdate = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -190,29 +189,39 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btnUpdate);
+            this.groupBox1.Controls.Add(this.btnSave);
             this.groupBox1.Controls.Add(this.txtBonneRep);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.btnGenerer);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtRep03);
             this.groupBox1.Controls.Add(this.txtRep02);
             this.groupBox1.Controls.Add(this.txtRep01);
-            this.groupBox1.Location = new System.Drawing.Point(19, 164);
+            this.groupBox1.Location = new System.Drawing.Point(19, 162);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(441, 304);
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Réponses";
             // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(164, 275);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(128, 23);
+            this.btnSave.TabIndex = 17;
+            this.btnSave.Text = "Enregistrer";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
             // txtBonneRep
             // 
             this.txtBonneRep.Location = new System.Drawing.Point(37, 190);
             this.txtBonneRep.Multiline = true;
             this.txtBonneRep.Name = "txtBonneRep";
+            this.txtBonneRep.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtBonneRep.Size = new System.Drawing.Size(378, 59);
             this.txtBonneRep.TabIndex = 10;
             // 
@@ -249,16 +258,6 @@
             this.cbbGroupe.Size = new System.Drawing.Size(183, 21);
             this.cbbGroupe.TabIndex = 11;
             // 
-            // btnGenerer
-            // 
-            this.btnGenerer.Location = new System.Drawing.Point(50, 275);
-            this.btnGenerer.Name = "btnGenerer";
-            this.btnGenerer.Size = new System.Drawing.Size(128, 23);
-            this.btnGenerer.TabIndex = 11;
-            this.btnGenerer.Text = "Ajouter la question";
-            this.btnGenerer.UseVisualStyleBackColor = true;
-            this.btnGenerer.Click += new System.EventHandler(this.btnGenerer_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -272,6 +271,7 @@
             // 
             this.txtQuestion.Location = new System.Drawing.Point(100, 129);
             this.txtQuestion.Name = "txtQuestion";
+            this.txtQuestion.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
             this.txtQuestion.Size = new System.Drawing.Size(317, 20);
             this.txtQuestion.TabIndex = 3;
             // 
@@ -367,18 +367,7 @@
             this.btnMajQuest.Visible = false;
             this.btnMajQuest.Click += new System.EventHandler(this.btnMajQuest_Click);
             // 
-            // btnUpdate
-            // 
-            this.btnUpdate.Enabled = false;
-            this.btnUpdate.Location = new System.Drawing.Point(265, 275);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(128, 23);
-            this.btnUpdate.TabIndex = 17;
-            this.btnUpdate.Text = "Enregistrer modifs";
-            this.btnUpdate.UseVisualStyleBackColor = true;
-            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
-            // 
-            // frmMain
+            // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -390,7 +379,7 @@
             this.Controls.Add(this.btnLoadXML);
             this.Controls.Add(this.label7);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "frmMain";
+            this.Name = "FrmMain";
             this.Text = "Generateur questions format XML";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox2.ResumeLayout(false);
@@ -422,7 +411,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cbbGroupe;
-        private System.Windows.Forms.Button btnGenerer;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtQuestion;
         private System.Windows.Forms.GroupBox groupBox3;
@@ -438,7 +426,7 @@
         private System.Windows.Forms.RadioButton rdbRep01;
         private System.Windows.Forms.Button btnCreateXML;
         private System.Windows.Forms.Button btnMajQuest;
-        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnSave;
     }
 }
 
